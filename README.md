@@ -6,7 +6,15 @@ An implementation of a grid view based on a matrix structure (with a defined num
 Usage
 -----
 
-Look at the demo project.
+Look at the demo project, or wait for some decent documentation ;)
+
+```objecttive-c
+
+//
+//  AZCollectionView.h
+//
+
+#import <UIKit/UIKit.h>
 
 @class AZFixedGridView;
 
@@ -64,6 +72,7 @@ typedef enum {
 - (id)dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind withReuseIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath;
 
 @end
+```
 
 Screenshots
 -----------
