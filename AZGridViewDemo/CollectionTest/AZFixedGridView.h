@@ -1,12 +1,12 @@
-AZGridView
-==========
+//
+//  AZCollectionView.h
+//  CollectionTest
+//
+//  Created by Alessandro Zoffoli on 30/05/13.
+//  Copyright (c) 2013 Apexnet. All rights reserved.
+//
 
-An implementation of a grid view based on a matrix structure (with a defined number of rows and columns), using native UICollectionView and a custom layout.
-
-Usage
------
-
-Look at the demo project.
+#import <UIKit/UIKit.h>
 
 @class AZFixedGridView;
 
@@ -64,9 +64,3 @@ typedef enum {
 - (id)dequeueReusableSupplementaryViewOfKind:(NSString *)elementKind withReuseIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath;
 
 @end
-
-Screenshots
------------
-
-![Alt text](/Screenshots/iphone.png "iPhone")
-![Alt text](/Screenshots/ipad.png "iPad")

@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5700124017589C7F00FE7D19 /* AZFixedGridDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5700123F17589C7F00FE7D19 /* AZFixedGridDemoViewController.m */; };
+		570631E2174BAEAD00F7025E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570631E1174BAEAD00F7025E /* UIKit.framework */; };
+		570631E4174BAEAD00F7025E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570631E3174BAEAD00F7025E /* Foundation.framework */; };
+		570631E6174BAEAD00F7025E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570631E5174BAEAD00F7025E /* CoreGraphics.framework */; };
+		570631EC174BAEAD00F7025E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 570631EA174BAEAD00F7025E /* InfoPlist.strings */; };
+		570631EE174BAEAD00F7025E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 570631ED174BAEAD00F7025E /* main.m */; };
+		570631F2174BAEAD00F7025E /* AZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 570631F1174BAEAD00F7025E /* AZAppDelegate.m */; };
+		570631F4174BAEAD00F7025E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 570631F3174BAEAD00F7025E /* Default.png */; };
+		570631F6174BAEAD00F7025E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 570631F5174BAEAD00F7025E /* Default@2x.png */; };
+		570631F8174BAEAD00F7025E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 570631F7174BAEAD00F7025E /* Default-568h@2x.png */; };
+		570631FB174BAEAD00F7025E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570631F9174BAEAD00F7025E /* MainStoryboard_iPhone.storyboard */; };
+		570631FE174BAEAD00F7025E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570631FC174BAEAD00F7025E /* MainStoryboard_iPad.storyboard */; };
+		57063201174BAEAD00F7025E /* AZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57063200174BAEAD00F7025E /* AZViewController.m */; };
+		57063209174BAFE600F7025E /* AZFixedGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57063208174BAFE600F7025E /* AZFixedGridViewController.m */; };
+		57063211174BCD0900F7025E /* AZFixedGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57063210174BCD0900F7025E /* AZFixedGridLayout.m */; };
+		570637D6174FA0D7001C47F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570637D5174FA0D7001C47F6 /* QuartzCore.framework */; };
+		570637D9174FB942001C47F6 /* 13-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 570637D7174FB942001C47F6 /* 13-plus.png */; };
+		570637DA174FB942001C47F6 /* 13-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 570637D8174FB942001C47F6 /* 13-plus@2x.png */; };
+		5715B14C17574067002DDFCE /* AZFixedGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5715B14B17574067002DDFCE /* AZFixedGridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5700123E17589C7F00FE7D19 /* AZFixedGridDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZFixedGridDemoViewController.h; sourceTree = "<group>"; };
+		5700123F17589C7F00FE7D19 /* AZFixedGridDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZFixedGridDemoViewController.m; sourceTree = "<group>"; };
+		570631DE174BAEAD00F7025E /* CollectionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CollectionTest.app; path = AZGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		570631E1174BAEAD00F7025E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		570631E3174BAEAD00F7025E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		570631E5174BAEAD00F7025E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		570631E9174BAEAD00F7025E /* CollectionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionTest-Info.plist"; sourceTree = "<group>"; };
+		570631EB174BAEAD00F7025E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		570631ED174BAEAD00F7025E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		570631EF174BAEAD00F7025E /* CollectionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollectionTest-Prefix.pch"; sourceTree = "<group>"; };
+		570631F0174BAEAD00F7025E /* AZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZAppDelegate.h; sourceTree = "<group>"; };
+		570631F1174BAEAD00F7025E /* AZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZAppDelegate.m; sourceTree = "<group>"; };
+		570631F3174BAEAD00F7025E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		570631F5174BAEAD00F7025E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		570631F7174BAEAD00F7025E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		570631FA174BAEAD00F7025E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		570631FD174BAEAD00F7025E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		570631FF174BAEAD00F7025E /* AZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZViewController.h; sourceTree = "<group>"; };
+		57063200174BAEAD00F7025E /* AZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZViewController.m; sourceTree = "<group>"; };
+		57063207174BAFE600F7025E /* AZFixedGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZFixedGridViewController.h; sourceTree = "<group>"; };
+		57063208174BAFE600F7025E /* AZFixedGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZFixedGridViewController.m; sourceTree = "<group>"; };
+		5706320F174BCD0900F7025E /* AZFixedGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZFixedGridLayout.h; sourceTree = "<group>"; };
+		57063210174BCD0900F7025E /* AZFixedGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZFixedGridLayout.m; sourceTree = "<group>"; };
+		570637D5174FA0D7001C47F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		570637D7174FB942001C47F6 /* 13-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-plus.png"; sourceTree = "<group>"; };
+		570637D8174FB942001C47F6 /* 13-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13-plus@2x.png"; sourceTree = "<group>"; };
+		5715B14A17574067002DDFCE /* AZFixedGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZFixedGridView.h; sourceTree = "<group>"; };
+		5715B14B17574067002DDFCE /* AZFixedGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZFixedGridView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570631DB174BAEAD00F7025E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570637D6174FA0D7001C47F6 /* QuartzCore.framework in Frameworks */,
+				570631E2174BAEAD00F7025E /* UIKit.framework in Frameworks */,
+				570631E4174BAEAD00F7025E /* Foundation.framework in Frameworks */,
+				570631E6174BAEAD00F7025E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570012411758B46500FE7D19 /* AZFixedGridView */ = {
+			isa = PBXGroup;
+			children = (
+				5715B14A17574067002DDFCE /* AZFixedGridView.h */,
+				5715B14B17574067002DDFCE /* AZFixedGridView.m */,
+				57063207174BAFE600F7025E /* AZFixedGridViewController.h */,
+				57063208174BAFE600F7025E /* AZFixedGridViewController.m */,
+				5706320F174BCD0900F7025E /* AZFixedGridLayout.h */,
+				57063210174BCD0900F7025E /* AZFixedGridLayout.m */,
+			);
+			name = AZFixedGridView;
+			sourceTree = "<group>";
+		};
+		5700124C1758D70F00FE7D19 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5700123E17589C7F00FE7D19 /* AZFixedGridDemoViewController.h */,
+				5700123F17589C7F00FE7D19 /* AZFixedGridDemoViewController.m */,
+				570631FF174BAEAD00F7025E /* AZViewController.h */,
+				57063200174BAEAD00F7025E /* AZViewController.m */,
+				570631F9174BAEAD00F7025E /* MainStoryboard_iPhone.storyboard */,
+				570631FC174BAEAD00F7025E /* MainStoryboard_iPad.storyboard */,
+				570637D7174FB942001C47F6 /* 13-plus.png */,
+				570637D8174FB942001C47F6 /* 13-plus@2x.png */,
+				570631F0174BAEAD00F7025E /* AZAppDelegate.h */,
+				570631F1174BAEAD00F7025E /* AZAppDelegate.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		570631D5174BAEAD00F7025E = {
+			isa = PBXGroup;
+			children = (
+				570631E7174BAEAD00F7025E /* AZFixedGridViewDemo */,
+				570631E0174BAEAD00F7025E /* Frameworks */,
+				570631DF174BAEAD00F7025E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		570631DF174BAEAD00F7025E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570631DE174BAEAD00F7025E /* CollectionTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570631E0174BAEAD00F7025E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				570637D5174FA0D7001C47F6 /* QuartzCore.framework */,
+				570631E1174BAEAD00F7025E /* UIKit.framework */,
+				570631E3174BAEAD00F7025E /* Foundation.framework */,
+				570631E5174BAEAD00F7025E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		570631E7174BAEAD00F7025E /* AZFixedGridViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5700124C1758D70F00FE7D19 /* Demo */,
+				570012411758B46500FE7D19 /* AZFixedGridView */,
+				570631E8174BAEAD00F7025E /* Supporting Files */,
+			);
+			name = AZFixedGridViewDemo;
+			path = CollectionTest;
+			sourceTree = "<group>";
+		};
+		570631E8174BAEAD00F7025E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				570631E9174BAEAD00F7025E /* CollectionTest-Info.plist */,
+				570631EA174BAEAD00F7025E /* InfoPlist.strings */,
+				570631ED174BAEAD00F7025E /* main.m */,
+				570631EF174BAEAD00F7025E /* CollectionTest-Prefix.pch */,
+				570631F3174BAEAD00F7025E /* Default.png */,
+				570631F5174BAEAD00F7025E /* Default@2x.png */,
+				570631F7174BAEAD00F7025E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570631DD174BAEAD00F7025E /* AZGridViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57063204174BAEAD00F7025E /* Build configuration list for PBXNativeTarget "AZGridViewDemo" */;
+			buildPhases = (
+				570631DA174BAEAD00F7025E /* Sources */,
+				570631DB174BAEAD00F7025E /* Frameworks */,
+				570631DC174BAEAD00F7025E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZGridViewDemo;
+			productName = CollectionTest;
+			productReference = 570631DE174BAEAD00F7025E /* CollectionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570631D6174BAEAD00F7025E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AZ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Apexnet;
+			};
+			buildConfigurationList = 570631D9174BAEAD00F7025E /* Build configuration list for PBXProject "CollectionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 570631D5174BAEAD00F7025E;
+			productRefGroup = 570631DF174BAEAD00F7025E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570631DD174BAEAD00F7025E /* AZGridViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570631DC174BAEAD00F7025E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570631EC174BAEAD00F7025E /* InfoPlist.strings in Resources */,
+				570631F4174BAEAD00F7025E /* Default.png in Resources */,
+				570631F6174BAEAD00F7025E /* Default@2x.png in Resources */,
+				570631F8174BAEAD00F7025E /* Default-568h@2x.png in Resources */,
+				570631FB174BAEAD00F7025E /* MainStoryboard_iPhone.storyboard in Resources */,
+				570631FE174BAEAD00F7025E /* MainStoryboard_iPad.storyboard in Resources */,
+				570637D9174FB942001C47F6 /* 13-plus.png in Resources */,
+				570637DA174FB942001C47F6 /* 13-plus@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570631DA174BAEAD00F7025E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570631EE174BAEAD00F7025E /* main.m in Sources */,
+				570631F2174BAEAD00F7025E /* AZAppDelegate.m in Sources */,
+				57063201174BAEAD00F7025E /* AZViewController.m in Sources */,
+				57063209174BAFE600F7025E /* AZFixedGridViewController.m in Sources */,
+				57063211174BCD0900F7025E /* AZFixedGridLayout.m in Sources */,
+				5715B14C17574067002DDFCE /* AZFixedGridView.m in Sources */,
+				5700124017589C7F00FE7D19 /* AZFixedGridDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		570631EA174BAEAD00F7025E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570631EB174BAEAD00F7025E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		570631F9174BAEAD00F7025E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570631FA174BAEAD00F7025E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		570631FC174BAEAD00F7025E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570631FD174BAEAD00F7025E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57063202174BAEAD00F7025E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57063203174BAEAD00F7025E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57063205174BAEAD00F7025E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionTest/CollectionTest-Prefix.pch";
+				INFOPLIST_FILE = "CollectionTest/CollectionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57063206174BAEAD00F7025E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CollectionTest/CollectionTest-Prefix.pch";
+				INFOPLIST_FILE = "CollectionTest/CollectionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570631D9174BAEAD00F7025E /* Build configuration list for PBXProject "CollectionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57063202174BAEAD00F7025E /* Debug */,
+				57063203174BAEAD00F7025E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57063204174BAEAD00F7025E /* Build configuration list for PBXNativeTarget "AZGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57063205174BAEAD00F7025E /* Debug */,
+				57063206174BAEAD00F7025E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 570631D6174BAEAD00F7025E /* Project object */;
+}
